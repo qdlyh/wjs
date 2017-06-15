@@ -1,0 +1,93 @@
+{padding: 0;margin: 0;background:#F9F9F9;list-style:none;text-decoration: none;}
+  .home{
+     padding-left: 6%;
+  }
+      .top-h1{
+       	  color: #ffffff;
+       	  background:#851919;
+       	  font-size:1.2rem;
+       	  height: 30px;
+       	  line-height: 1.8rem;
+       }
+       .shux label{
+       	width: 140px;
+       	color: #fd0000;
+       	font-weight: bold;
+       	display: inline-block;
+       	cursor: pointer;
+       }
+       .color-red{
+       	 color: #fd0000;
+       }
+       .shenp label{
+       	 color: #fd0000;
+       	 font-weight: bold;
+       	 cursor: pointer;       
+       }
+       .shenp img{
+       	  width: 40px;
+       }
+       .colour-input1{ 
+        color:#000000; 
+      } 
+       .colour-input2{ 
+        color:#EEEE00; 
+      } 
+       .colour-input3{ 
+        color:#FF3333 ; 
+      } 
+       .colour-input4{ 
+        color:#33FF33;  
+      }
+     .xinxi-button{
+        font-size: 25px;  
+        padding: 15px 50px 15px;
+        border: 1px solid #000000;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #000000;
+        background:#fd0000;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .xinxi-button:hover{
+        background:#00BBFF;
+    }
+    .wpcolor{
+      display: inline-block;
+      background:#EEEEEE;
+      width:85%;
+      margin-top:10px;
+      border: 1px solid #ffffff;
+    }
+    .wpcolor-a{
+      border: 1px solid #FD0000;
+    }
+    #sumMoney{
+      font-size:18px;
+      font-weight:bold;
+      color:#FD0000;
+    }
+    .xinxi input{
+       margin:10px 1.5rem;
+    }
+    .xinxi select {
+      width: 150px;
+      height: 30px;
+      margin-left: 20px;
+    }
+    .xinxi-box{
+      width: 50%;
+      height:30px;
+    }
+    .zhifu-1 input{
+      width:60px;
+      text-align: center;
+    }
+    .xinxi-word{
+        margin:10px 3%;
+       width: 50%;
+       height: 50px;
+    }

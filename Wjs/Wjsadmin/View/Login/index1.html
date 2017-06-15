@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+</head>
+<body>
+	<h1>{$login}</h1>
+	<form action="{:U('Wjsadmin/Login/index')}" method="post">
+	<div>	账号:
+			<p><input type="text" name="username" id="username"></p>
+			密码:
+			<p><input type="text" name="password" id="password"></p>
+			验证码:
+			<p><input type="text" name="yzm" id="yzm"></p>
+			<span><img src="{:U('Wjsadmin/Login/yzm')}" onclick="this.src=this.src+'?'" /></span>
+			<p><input type="submit"></p>
+	</div>
+	</form>
+	<a href="{:U('relogin')}">注册</a>
+</body>
+</html>

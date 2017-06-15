@@ -1,0 +1,114 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/zcpixiu/15616515.jpg);  /* 顶部主页图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.content{
+	background-image:url(../../images/zcpixiu/21651651.jpg);  /* 大背景图 */
+}
+.content-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.section-cp-big{                                /*   大产品图文字居中   */
+	text-align: center;
+}
+ .section-cp-big img{
+ 	width: 400px;                            /*   大产品图片大小   */
+ 	height: 460px;
+ }
+.section-cp-box-big{  
+    width: 400px;                          /*   大产品底部文字背景图   */
+	height: 100px;
+	background-image:url(../../images/zcpixiu/1665156156.jpg);
+	background-repeat:no-repeat;
+}
+.section-cp-box-big a{                           /*   大产品a标签   */
+	line-height: 50px;
+	color: #f0e1a4;
+	font-family: "Microsoft YaHei";
+}
+.section-cp-box{                                 /* 每个产品宽度 */
+	width: 385px;
+	float: right;
+	padding: 5px;
+}
+.section-cp-box img{
+	width: 385px;
+	height: 265px;
+}
+.section-cp-box-jg{                              /* 每个产品价格背景图 */
+	width: 385px;
+	height: 100px;
+	background-image:url(../../images/zcpixiu/15615611.jpg);
+	background-repeat:no-repeat;
+	text-align: center;
+}
+.section-cp-box-jg a{    
+    width:248px;                                    /* 每个产品价格文字 */
+	color: #f0e1a4;
+	font-family: "Microsoft YaHei ";
+	line-height: 50px;
+}
+.section-2{
+	height: 922px;
+	background-image:url(../../images/zcpixiu/15615651.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-3{
+	height: 1520px;
+}
+.section-3-top{
+ 	height: 235px;
+	background-image:url(../../images/zcpixiu/1561651651.png);
+	background-repeat:no-repeat;
+    background-position:center;	   
+}
+.section-4{
+	height: 1506px;
+	background-image:url(../../images/zcpixiu/1561561.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-5{
+	height: 1498px;
+	background-image:url(../../images/zcpixiu/16116515.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 1503px;
+	background-image:url(../../images/zcpixiu/15616516.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-7{
+	height: 1513px;
+	background-image:url(../../images/zcpixiu/165156156.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-8{
+	height: 1293px;
+	background-image:url(../../images/15516165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9-box{
+	height: 612px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

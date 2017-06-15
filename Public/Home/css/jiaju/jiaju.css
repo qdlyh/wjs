@@ -1,0 +1,140 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/jiaju/156156156.jpg);  /* 顶部主页图 */
+}
+.content{
+	background-image:url(../../images/jiaju/1561561.jpg);  /* 大背景图 */
+}
+.content-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.section-2{
+	height: 1032px;
+}
+.section-2-top{                                  /* 产品标题  */
+	height: 183px;
+	padding: 30px 0;
+    background-image:url(../../images/jiaju/15216516.png);	
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-cp-box{                                 /* 每个产品宽度 */
+	width: 290px;
+	float: left;
+	padding: 5px;
+}
+.section-cp-box img{
+	width: 290px;
+	height: 290px;
+}
+.section-cp-box-jg{                              /* 每个产品价格背景图 */
+	width: 290px;
+	height: 80px;
+    text-align: center;
+    background-image:url(../../images/jiaju/1665156156.jpg);	
+	background-repeat:no-repeat;
+}
+.section-cp-box-jg a{                          /* 每个产品价格文字 */
+	color: #f0e1a4;
+	font-family: "Microsoft YaHei ";
+	line-height: 40px;
+}
+.section-3{
+	height: 1014px;
+}
+.section-3-top{                                  /* 产品标题  */
+	height: 183px;
+	padding: 30px 0;
+    background-image:url(../../images/jiaju/15216516.png);	
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-4{
+	height: 628px;
+	background-image:url(../../images/jiaju/562645165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-5{
+	height: 1024px;
+	background-image:url(../../images/jiaju/651561651.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 1026px;
+	background-image:url(../../images/jiaju/15616515.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-7{
+	height: 1014px;
+	background-image:url(../../images/jiaju/11561561.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-8{
+	height: 632px;
+	background-image:url(../../images/jiaju/1561561615.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9{
+	height: 629px;
+	background-image:url(../../images/jiaju/156156165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-10{
+	height: 629px;
+	background-image:url(../../images/jiaju/156165156.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-11{
+	height: 629px;
+	background-image:url(../../images/jiaju/15615615615.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-12{
+	height: 629px;
+	background-image:url(../../images/jiaju/2615615615.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-13{
+	height: 629px;
+	background-image:url(../../images/jiaju/1651561651.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-14{
+	height: 639px;
+	background-image:url(../../images/jiaju/1561511651.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-15{
+	height: 1293px;
+	background-image:url(../../images/15516165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-16{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-16-box{
+	height: 612px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

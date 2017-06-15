@@ -1,0 +1,131 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.content-1{
+	background-image:url(../../images/cp/1541561.jpg); 
+}
+.content-2{
+	max-width: 845px;
+	margin: 0 auto;
+	background-image:url(../../images/cp/41561513.jpg);
+    background-position:center;
+}
+.color-red{
+	color: #ff0000;
+	font-weight: bold;
+}
+.section-1{
+	height: 490px;
+	padding-top: 12px;
+	background-image:url(../../images/cp/156136.jpg);
+	background-repeat:no-repeat;
+    background-position:center;                     
+}
+.section-1-box{
+	max-width: 800px;
+	margin: 30px auto;
+}
+.section-1-right{
+	width: 435px;
+	height: 380px;
+	float:right;
+}
+.section-1-top{
+	height: 50px;
+    background-image:url(../../images/cp/1561561.jpg);
+	background-repeat:no-repeat;
+    background-position:center;  
+}
+.section-1-right-color{      /*产品文字颜色*/
+	color: #9b5d28;
+}
+.section-1-top h4{
+	font-size: 18px;
+	letter-spacing: 2px;
+    text-align: center;
+	line-height: 50px;
+	color: #ff0000;
+	font-weight: bold;
+}
+.section-1-right-box{
+	padding:20px 0 0 20px;
+}
+.section-1-right-box p{             
+	padding:3px 0;
+}
+.section-1-right-box p{
+	line-height: 25px;
+}
+#section-1-right-span span{              /*产品框*/
+	display: inline-block;
+	margin: 5px 0;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+    border: 2px solid #b8b7bd;
+    cursor: pointer;
+}
+.section-1-span-sx:hover{                       /* 生肖经过边框*/
+    border: 2px solid #F40000 !important;
+    color: #F40000;	
+}
+.section-1-right-sx1{                          /* 生肖点击边框*/
+    border: 2px solid #F40000 !important;
+    color: #f40000;
+}
+.section-1-btn a{                /*产品按钮*/
+   display:block;
+   width: 145px;
+   height: 35px;
+   font-size: 18px;
+   line-height: 35px;
+   margin: 10px auto;
+   text-align: center;
+   color: #ffffff;
+   background: linear-gradient(#d41c1c , #821211);
+   background: -webkit-linear-gradient(#d41c1c , #821211); 
+   background: -o-linear-gradient(#d41c1c , #821211); 
+   background: -moz-linear-gradient#d41c1c , #821211);
+}
+.section-1-btn a:hover{
+   background: linear-gradient(#d41c1c , #B22222);
+   background: -webkit-linear-gradient(#d41c1c , #B22222); 
+   background: -o-linear-gradient(#d41c1c , #B22222); 
+   background: -moz-linear-gradient(#d41c1c , #B22222); 
+}
+
+.section-2{
+	text-align: center;
+}
+.section-2 img{
+	width: 790px;
+}
+.section-3{
+	
+}
+.section-4{                                  /*第二张背景图*/
+	height: 717px;
+	background-image:url(../../images/cp/1513256.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section4-box{    
+    text-align: center; 
+}
+.section4-box img{
+	width: 790px;                
+}
+.section-5{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;		
+}
+.section-5-box{
+	height: 613px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

@@ -1,0 +1,167 @@
+       <!-- 包含头部 -->
+        <include file="Public/header" />
+        <!-- 侧边导航栏 -->
+        <include file="Public/menu" />
+
+        <!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+            <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 添加商品<small></small></div>
+                        <p class="page-header-description">请注意格式</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row-content am-cf">
+
+
+               
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">添加商品</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body am-fr">
+
+                                <form class="am-form tpl-form-border-form tpl-form-border-br" action="{:U('goods_add')}" method="post" enctype="multipart/form-data">
+                                    <div class="am-form-group">
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">商品名 <span class="tpl-form-line-small-title">goods_name</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" class="tpl-form-input"  name="name" id="name" placeholder="请输入商品名称">
+                                            <small>必填,最长20字。</small>
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">商品号<span class="tpl-form-line-small-title">请输入商品号|唯一不能重复</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="num" placeholder="输入商品号">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">材质<span class="tpl-form-line-small-title">goods_material</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="caizhi" placeholder="输入材质">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">市场价格 <span class="tpl-form-line-small-title">goods_prices</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="shichangjia" placeholder="输入市场价格">
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">结缘价格 <span class="tpl-form-line-small-title">goods_price</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="jia" placeholder="输入结缘价格">
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">库存 <span class="tpl-form-line-small-title">goods_price</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text"  name="kucun" placeholder="输入结缘价格">
+                                        </div>
+                                    </div>
+                                    
+                                     <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">分类<span class="tpl-form-line-small-title">goods_class</span></label>
+                                        <div class="am-u-sm-9">
+                                            <select data-am-selected="{searchBox: 1}" style="display: none;" name="class">
+                                                <volist name="classname" id="classname">
+                                              <option value="{$classname.class_name}">{$classname.class_name}</option>
+                                                </volist>  
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">功效<span class="tpl-form-line-small-title">goods_effect</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="gongxiao" placeholder="输入功效">
+                                        </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">热卖<span class="tpl-form-line-small-title">goods_hot</span></label>
+                                        <div class="am-u-sm-9">
+                                            <select data-am-selected="{searchBox: 1}" style="display: none;" name="remai">
+                                              <option value="1">热卖</option>
+                                              <option value="0">不热卖</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                       <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">是否上架<span class="tpl-form-line-small-title">goods_state</span></label>
+                                        <div class="am-u-sm-9">
+                                            <select data-am-selected="{searchBox: 1}" style="display: none;" name="shangjia">
+                                              <option value="1">上架</option>
+                                              <option value="0">下架</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label for="user-intro" class="am-u-sm-3 am-form-label">商品详情</label>
+                                        <div class="am-u-sm-9">
+                                            <textarea name="beizhu" id="editor_id" style="width:100%;height:500px;"></textarea>
+                                        </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label for="user-weibo" class="am-u-sm-3 am-form-label">商品图 <span class="tpl-form-line-small-title">goods_img</span></label>
+                                        <div class="am-u-sm-9">
+                                                <input type="file" name="tu" id="tu"/>
+                                        </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">发布者<span class="tpl-form-line-small-title">goods_admin</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text"  name="fabuzhe" value="{$Think.session.login_name}">
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <div class="am-u-sm-9 am-u-sm-push-3">
+                                            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/assets/js/amazeui.datatables.min.js"></script>
+    <script src="__PUBLIC__/assets/js/dataTables.responsive.min.js"></script>
+    <script src="__PUBLIC__/assets/js/app.js"></script>
+
+</body>
+
+</html>

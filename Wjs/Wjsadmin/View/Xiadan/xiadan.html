@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>慈园阁 订购中心</title>
+</head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/dgzx.css">
+<body onload="iniEvent()">
+	<div class="home">
+		<h1 class="top-h1">在线奉请——全国包邮，佛到付款！</h1>
+
+		 <!--生肖-->
+	<div class="shux">
+		<h3 class="color-red">生肖</h3>	
+          <form action="">
+         <label>
+          <input type="checkbox" name="chanpin1" value="千手观音 （鼠）">
+          鼠(千手观音)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="虚空藏菩萨（牛）">
+          牛(虚空藏菩萨)</label>
+          <br>
+          <label>
+          <input type="checkbox" name="chanpin1" value="虚空藏菩萨（虎）">
+          虎(虚空藏菩萨)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="文殊菩萨 （兔）">
+          兔(文殊菩萨)</label>
+          <br>
+          <label>
+          <input type="checkbox" name="chanpin1" value="普贤菩萨 （龙）">
+          龙(普贤菩萨)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="普贤菩萨 （蛇）" >
+          蛇(普贤菩萨)</label>
+          <br>
+          <label>
+          <input type="checkbox" name="chanpin1" value="大势至菩萨（马）">
+          马(大势至菩萨)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="大日如来 （羊）">
+          羊(大日如来)</label>
+          <br>
+          <label>
+          <input type="checkbox" name="chanpin1" value="大日如来 （猴）">
+          猴(大日如来)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="不动尊菩萨（鸡）">
+          鸡(不动尊菩萨)</label>
+          <br>
+          <label>
+          <input type="checkbox" name="chanpin1" value="阿弥陀佛 （狗）" >
+          狗(阿弥陀佛)</label>
+          <label>
+          <input type="checkbox" name="chanpin1" value="阿弥陀佛 （猪）" >
+          猪(阿弥陀佛)</label>
+          <br/>
+	</div>
+	<div class="shenp">
+	<h3 class="color-red">选择圣品</h3>
+	<p style="color: #851FD1;font-size: 12px;font-weight: bold;">如奉请多尊请在留言处说明！ </p>
+	<input type="hidden" id="xzlx" value="1">
+          <input type="checkbox" name="product" id="a1" value="198" alt="黑曜石吊198元" onClick="pricea()">
+          <label for="a1"><span class="wpcolor"><img src="__PUBLIC__/images/1156516131.jpg" alt="">黑曜石吊坠&nbsp;&nbsp;198元</label></span>
+          <br>
+          <input type="checkbox" name="product" id="a2" value="298" alt="冰种黑曜石298元" onClick="pricea()">
+          <label for="a2"><span class="wpcolor"><img src="__PUBLIC__/images/16516156.jpg" alt="">冰种黑曜石&nbsp;&nbsp;298元</label></span>
+          <br>
+          <input type="checkbox" name="product" id="a3" value="398" alt="红玛瑙吊坠398元" onClick="pricea()">
+          <label for="a3"><span class="wpcolor"><img src="__PUBLIC__/images/26125621.jpg" alt="">红玛瑙吊坠&nbsp;&nbsp;398元</label></span>
+          <br>
+          <input type="checkbox" name="product" id="a4" value="398" alt="白玛瑙吊坠398元" onClick="pricea()">
+          <label for="a4"><span class="wpcolor"><img src="__PUBLIC__/images/256156165165.jpg" alt="">白玛瑙吊坠&nbsp;&nbsp;398元</label></span>
+          <br>
+          <!--
+          <input type="checkbox" name="product" id="a5" value="998" alt="和田玉吊坠998元" onClick="pricea()">
+          <label for="a5"><span class="wpcolor"><img src="images/15616516516.jpg" alt="">和田玉吊坠&nbsp;&nbsp;998元</label></span>
+          <br>-->
+          <input type="checkbox" name="product" id="a6" value="298" alt="冰种貔貅手串女款12mm298元" onClick="pricea()">
+          <label for="a6"><span class="wpcolor"><img src="__PUBLIC__/images/156132106.jpg" alt="">冰种貔貅手串(女款:12mm)298元</span>
+          </label></span>
+          <br>
+          <input type="checkbox" name="product" id="a7" value="298" alt="冰种貔貅手串男款14mm298元" onClick="pricea()">
+          <label for="a7"><span class="wpcolor"><img src="__PUBLIC__/images/156132106.jpg" alt="">冰种貔貅手串(男款:14mm)298元</label></span>
+          <br>
+          <input type="checkbox" name="product" id="a8" value="498" alt="黄金黑曜石498元" onClick="pricea()">
+          <label for="a8"><span class="wpcolor"><img src="__PUBLIC__/images/21514651.jpg" alt="">黄金黑曜石&nbsp;&nbsp;498元</label></span>
+          <br>
+    </div>
+     <!--填写信息-->
+     <div class="xinxi">
+     <form action="xinxi-from">
+      <span>您的姓名</span><input class="xinxi-box" name="username" type="text" placeholder="姓名"> 
+          <span class='colour-input1'>请输入姓名</span><br/>
+      <span>手机号码</span><input class="xinxi-box" name="number" type="text" placeholder="手机号码">
+          <span class='colour-input1'>请输入手机号码</span><br/>
+
+   <!--地区-->
+         <div class="control-group">
+             <span>所在地区</span> 
+            <select name="location_p" id="location_p"></select>
+            <select name="location_c" id="location_c"></select>
+            <select name="location_a" id="location_a"></select>
+        </div>
+<!--地区结束-->
+ 
+  <!--详细地址-->
+     <span>详细地址</span><input class="xinxi-box" name="address" type="text" placeholder="请填写街道信息">
+              <span class='colour-input1'>请填写具体的地址信息</span>
+
+ <!--<em>*</em><span id="sumMoney">支付金额:</span>-->
+  <!--支付-->
+        <div class="zhifu-1">
+          <span>支付金额</span><input id="sumMoney" name="price" value="0" readonly>
+           <span id="zfbyh"></span> 
+        </div>
+   <!--付款-->
+        <label class="fkfs-1">付款方式</label>　
+        <input type="radio" checked="checked" name="pay" id="b1" value="货到付款" onClick="return changeItem(0);" style="margin:0;">
+        <label for="b1"><img src="images/hdfk.gif"></label><br/>
+ <!--留言-->
+      <span>留言</span><textarea class="xinxi-word" name="word" type="text" placeholder="如奉请多尊，请在此处留言"></textarea>
+    </form>
+     </div><br/>
+        <div style="padding-left:20%;"><a class="xinxi-button" href="javascript:;">提交按钮</a></div>
+         <!--填写信息结束-->
+</div>
+</form>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/region_select.js"></script>
+<script type="text/javascript">
+     //地区
+     new PCAS('location_p', 'location_c', 'location_a', '北京市', '', '');
+
+     //计算金额
+     //统计选中的产品金额
+　　　function calculateMoney() {
+ 　　　　 var sum_x = 0;
+  　　　　var chkItems = document.getElementsByName("product");
+  　　　　for (var i_x = 0; i_x < chkItems.length; i_x++) {
+    　　　if (chkItems[i_x].checked) {
+     　　 sum_x += parseInt(chkItems[i_x].value);
+    　　}
+  　　}
+ 　　　 var sumMoneyObj = document.getElementById("sumMoney");
+  　　　//sumMoneyObj.innerHTML = "支付金额:" + sum_x +"元";
+  　　　　$("#sumMoney").val("￥"+sum_x);
+　　　}
+ 
+　　　//给每个产品复选框加上自动统计功能
+　　　function iniEvent() {
+  　　　var chkItems = document.getElementsByName("product");
+  　　　for (var i_a = 0; i_a < chkItems.length; i_a++) {
+    　　　chkItems[i_a].onclick = calculateMoney;
+  　　}      
+　　}
+　　//产品外边框
+　　　$('.wpcolor').click(function(){
+    　　　$(this).toggleClass('wpcolor-a');
+　　　})
+
+        //用户名
+          var username_1 = $('input[name="username"]'),
+              number_1 = $('input[name="number"]'),
+              canpin_1 = $('input[name="product"]'),
+              //email_1 = $('input[name="email"]'),   邮箱
+              address_1 = $('input[name="address"]');
+              //word_1 = $('textarea[name="word"]');   留言
+           $(username_1).focus(function(){
+          $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
+           }).blur(function(){
+            if ($(this).val().length >= 2 && $(this).val().length <=10 && $(this).val() !='') {
+              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              Name = true;
+            }else{
+                $(this).next().text('请输入正确的姓名').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
+            }
+           })
+           //手机号
+           $(number_1).focus(function(){
+              $(this).next().removeClass('colour-input1').addClass('colour-input2');
+
+            }).blur(function(){
+              if($(this).val().match(/^[1][3][0-9]{9}$/) && $(this).val()!=''){
+                $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4');
+                Number1 = true; 
+              }else{
+              $(this).next().text('请输入正确的手机格式号码').removeClass('colour-input1').removeClass
+              ('colour-input4').addClass('colour-input3');  
+              }
+            })
+            //邮箱
+             /*$(email_1).focus(function(){
+              $(this).next().removeClass('colour1').addClass('colour2');
+
+            }).blur(function(){
+              if($(this).val().match(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/) && $(this).val()!=''){
+                $(this).next().text('输入成功').removeClass('colour1').addClass('colour4');
+                Email = true; 
+              }else{
+              $(this).next().text('请输入正确的邮箱号码').removeClass('colour1').removeClass('colour4').addClass('colour3'); 
+              }
+            })*/
+            //详细地址
+              $(address_1).focus(function(){
+            $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
+
+           }).blur(function(){
+            if ($(this).val().length >= 2 && $(this).val().length <=300  && $(this).val() !='') {
+              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              address1 = true;
+            }else{
+                $(this).next().text('请填写收货地址').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
+            }
+           })
+              //留言板
+          /* $(word_1).focus(function(){
+            $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
+
+           }).blur(function(){
+            if ($(this).val().length >= 3 && $(this).val().length <=300  && $(this).val() !='') {
+              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              Word = true;
+            }else{
+                $(this).next().text('文字控制在3到300之间').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
+            }
+           })  */
+ 
+             //按钮验证
+             $('.xinxi-button').click(function(){
+               if ($(username_1).val().length ==0 && $(number_1).val().length==0 && $(address_1).val().length==0) {
+                   alert('请输入正确信息')
+               }else{
+                   alert('提交成功')
+               }
+            })
+
+</script>
+</body>
+</html>

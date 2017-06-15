@@ -1,0 +1,180 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/jxw/1651321.jpg);  /* 顶部主页图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.content{
+	height: 10340px;
+	background-image:url(../../images/jxw/651651.jpg);  /* 大背景图 */
+}
+.content-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.section-2{
+	height: 310px;
+	background-image:url(../../images/jxw/6513221.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+/*.section-3{
+	height: 665px;
+	background-image:url(../../images/jxw/14561631.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+*/
+.section-top{                                  /* 生肖查看运势调位    */
+    position: absolute;
+    top:230px;
+    right: 230px;
+    left: 50%;
+}
+.section-top a{
+	color: #c32a01;
+}
+.section-box{                                   /*   产品定位   */
+	width: 1080px;
+	height: 480px;
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+} 
+.section-cp-big{                                /*   大产品图片大小   */
+	width: 275px;
+	height: 400px;
+	text-align: center;
+}
+.section-cp-big img{
+	width: 275px;
+	height: 400px;
+}
+.section-cp-box-big{  
+    width: 280px;                          /*   大产品底部文字背景图   */
+	height: 80px;
+	background-image:url(../../images/jxw/205651561.jpg);
+	background-repeat:no-repeat;
+}
+.section-cp-box-big a{                           /*   大产品a标签   */
+	line-height: 80px;
+	color: #a1976b;
+	font-family: "Microsoft YaHei";
+}
+.section-cp-box{                                 /* 每个产品宽度 */
+	width: 250px;
+	height: 230px;
+	float: right;
+	padding: 5px;
+	position: relative;
+}
+.section-cp-box img{
+	width: 250px;
+	height: 230px;
+}
+.section-cp-box-jg{                              /* 每个产品价格背景图 */
+	height: 50px;
+    text-align: center;
+}
+.section-cp-box-jg a{    
+    width:248px;                                    /* 每个产品价格文字 */
+	color: #ffffff;
+	font-family: "Microsoft YaHei ";
+	line-height: 40px;
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	right: 0;
+	background: #000000;
+	opacity: 0.8;
+}
+
+.section-4{
+	height: 787px;
+	margin-top: 40px;
+	position: relative;
+	background-image:url(../../images/jxw/415165616.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-5{
+	height: 790px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/16515213.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 788px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/1615635.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-7{
+	height: 788px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/8591695.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-8{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1651651.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/156156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-10{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/151561.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-11{
+	height: 789px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1561615.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-12{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/4156165.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-13{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/15616516.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-14{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1561611.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-15{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/5615161.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

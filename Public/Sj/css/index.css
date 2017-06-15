@@ -1,0 +1,199 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+  background-color: #f0efed;
+}
+.home{
+   margin: 0 auto;
+}
+.head-top{                    
+  height: 2rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background: #ffffff;
+  line-height: 2rem;
+}
+.head-top h2{
+  font-size: 0.8rem;
+  color: #333333;
+  font-family:"SimHei","SimSun","SimHei","Microsoft YaHei";
+}
+.section1{
+  margin:0.1.5rem 0;
+  width:100%;
+}
+.section1 img{
+  width: 100%;
+}
+.section2{
+  padding:0.5rem 0;
+  background: #ffffff;
+}
+.section2-box-1,.section2-box-2{          /* 标题重左到右排序显示  */
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: 10px 0;
+}
+.section2-box-2{                          /* 第二行标题上距离  */
+  padding-top: 15px;
+}
+.section2-box{                            /* 标题左右距离  */
+  flex: 1 1;
+  -webkit-flex: 1 1;
+}
+.section2-box img{                          /* 标题图片大小  */
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+.section2-box a{
+  display: block;
+  font-size: 0.5rem;
+  color: #333333;
+}
+.section3{
+  margin: 10px 0;
+  background: #ffffff;
+}
+.section3-tab{
+  width: 100%;   
+}
+.section3-tab a{
+  color: #277de2;
+}    
+.section3-tab li{
+  line-height: 1.5rem;
+  font-size: 0.5rem;
+}
+.section3-tab a{
+  color: #000000;
+}
+.section3-active{
+  background: #ffffff;
+}
+#section3-tab{
+  display: flex;
+  display: -webkit-flex;
+  background: #ffffff;
+  border-bottom: 2px solid #f3f3f3;
+}
+#section3-tab li{
+  color: #333333;
+  padding:0 0.5rem;
+  font-weight:bold;
+  font-size: 0.6rem;
+}
+#section3-tab-box ul li{
+  border-bottom: 1px solid #f3f3f3;
+  padding:0 0.5rem;
+}
+.section3-tab-li{
+  display:none;
+}
+
+.section4{
+  background: #ffffff;
+}
+.section4 h2{
+  padding:15px 0.5rem;
+  color: #277de2;
+  font-size: 0.6rem;
+  border-bottom: 2px solid #f3f3f3;
+  color: #333333;
+}
+.section4-box{ 
+  display: flex;
+  display: -webkit-flex;
+  padding:7px 7px;
+  border-bottom: 2px solid #f3f3f3;
+}
+.section4-box img{
+   width: 3rem;
+   height: 3rem;
+}
+.section4-box-content{
+   flex:1 1;
+   -webkit-flex: 1 1;
+   padding-left: 1rem;
+}
+.section-4-content-btn{                  /*价格和按钮向右*/
+  display: flex;
+  justify-content: flex-end;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  padding-top: 15px;
+}
+.section4-box-content-name{             /*产品名字大小*/   
+  font-size: 0.56rem;
+}
+.section4-box-content-name a{          /*产品名字颜色*/   
+  color: #333333;
+}
+.section4-box-content-ms{              /*产品文字大小*/    
+  padding: 5px 0;
+  font-size: 0.45rem;
+}
+.section4-box-content-ms a{             /*产品文字颜色*/    
+  color: #999999;
+}
+.section-4-content-btn p{
+  font-size: 0.4rem;
+  padding-right: 5px;
+  color: #333333;
+}
+.section-4-content-btn span{            /*结缘价字体*/
+  color: #f40000;
+  font-size: 0.6rem;
+  padding-right: 5px;
+  line-height: 1.2rem;
+}
+.section-4-content-btn a{               /*立即奉请按钮*/
+  width: 6em;
+  height: 1.2rem;
+  background: #e7c981;
+  color: #ffffff;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.2rem;
+}
+    
+         @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:26px;
+              }
+        }
+          @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+        @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:34px;
+              }
+
+        }
+        @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:34px;
+              }
+               .section-bottom-btn{
+                max-width: 800px;
+               }
+               .home{
+                max-width: 800px;
+            }
+    }

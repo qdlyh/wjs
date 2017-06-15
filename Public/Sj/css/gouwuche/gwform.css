@@ -1,0 +1,245 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+}
+.home{
+   margin: 0 auto;
+}
+.section-li-cp-rmb{                         /*分类产品￥符号大小*/
+  font-size: 0.4rem;
+  color: #ed5f86;
+  padding-left: 5px;
+}
+.section-2 h2{
+  font-size: 0.7rem;
+  padding:15px 0.5rem;
+  color: #e7c981;
+  border-bottom: 2px solid #f3f3f3;
+}
+.xinxi span{
+  font-size: 0.5rem;
+  padding-left:10px;
+}
+.color-input{
+  font-size: 0.5rem;
+  padding-left: 3.2rem;
+  padding-top: 5px;
+}
+.colour-input1{ 
+  color:#000000; 
+} 
+.colour-input2{ 
+  color:#e7c981;
+} 
+.colour-input3{ 
+  color:#FF3333 ; 
+} 
+.colour-input4{ 
+  color:#33FF33;  
+}
+.xinxi input{
+  margin-left:10px;
+}
+.control-group{          
+  display: flex;
+  justify-content: space-between;
+  width: 7.2rem;             /*城市联动向右移动  */
+  margin-top: 15px;
+}
+.control-group select {
+  width: 4rem;
+  height: 30px; 
+
+  display: block;
+}
+.xinxi-box{
+  height:30px;
+}
+.xinxi-dz{      /* 详细地址 */
+  width: 50%;
+}
+.xinxi-word{
+  margin:10px;
+  width: 50%;
+  height: 60px;
+}
+.liuyan{
+  height: 36px;
+  margin-top: 27px;
+  float: left;
+}
+
+
+/*购物车 */
+
+.section4{
+  background: #ffffff;
+}
+.section4 h2{
+  padding:15px 0.5rem;
+  color: #e7c981;
+  font-size: 0.8rem;
+  border-bottom: 2px solid #f3f3f3;
+}
+.section4-box{ 
+  display: flex;
+  display: -webkit-flex;
+  padding:7px 7px;
+  border-bottom: 2px solid #f3f3f3;
+}
+.section4-box img{
+   width: 3rem;
+   height: 3rem;
+}
+.section4-box-content{
+   flex:1 1;
+   -webkit-flex: 1 1;
+   padding-left: 0.5rem;
+}
+.section-4-content-btn{                  /*价格向左*/
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.section4-box-content-name{             /*产品名字大小*/   
+  font-size: 0.56rem;
+}
+.section4-box-content-name a{          /*产品名字颜色*/   
+  color: #333333;
+}
+.section4-box-content-ms{              /*产品文字大小*/    
+  padding: 5px 0;
+  font-size: 0.45rem;
+}
+.section4-box-content-ms a{               /*产品文字颜色*/    
+  color: #999999;
+}
+.section-4-content-rmb{                    /* ￥价格文字 */
+	font-size: 0.5rem;
+	color: #f40000;
+}
+.section4-input-number{                     /* + -字体大小 */
+	font-size: 0.6rem;
+}
+.section4-input-number span{              /* 加减数量按钮 */
+	display: inline-block;
+	height: 0.7rem;
+  width: 0.7rem;
+  border: 1px solid #e5e5e5;
+  background: #f0f0f0;
+  text-align: center;
+  line-height: 0.5rem;
+  cursor: pointer;
+}
+.section-4-cp-number{	                  /* 数量X1字体  */
+  font-size: 0.4rem
+}
+.section4-input-number p{                /* 数量X1  */
+	display: initial;
+}
+.section4-input-number input{            /* 数量框 */
+	text-align: center;
+	width: 0.8rem;
+	height: 0.6rem;
+}
+.section-4-delete a{                        /*删除按钮 */
+   display: inline-block;
+   float: right;
+   width: 50px;
+   font-size: 0.45rem;
+   color: #999999;
+}
+.section4-bottom{                             /* 底部 */
+  display: flex;
+  justify-content: space-between;
+  padding:10px 0 0 20px;	
+}
+.section-4-bottom-box{                    /* 合计向右排序 */     
+  display: flex;
+  justify-content: flex-end;    
+  font-size: 0.45rem;
+}
+.section4-bottom-hj{                       /* 合计向上内边距5PX */     
+  padding-top: 5px;
+}
+.section4-bottom-box-money{              /* 总金额和运费上下排序 */
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section4-bottom-bhyf{                   /* 不含运费 */
+  color: #999999;
+  font-size: 0.4rem;
+  padding: 0 5px 8px 5px;
+}
+.section4-bottom-money{                 /* 总金额颜色 */
+	color: #f40000;
+	font-weight:bold;
+}
+.section4-li-cp-rmb{                     /* 总金额￥字体大小 */
+  font-size: 0.4rem;
+}
+.section4-li-cp-money{                  /* 总金额字体大小 */
+  font-size: 0.6rem;
+}
+.section4-box-js{                        /* 结算按钮*/
+	display: inline-block;
+	width:80px;
+	height: 40px
+	font-size: 0.4rem;
+	line-height: 45px;
+	text-align:center;	
+	font-weight:bold;
+	cursor:pointer;
+	padding: 0 5px;
+	background:#e7c981;
+}
+.section4-box-js a{
+	color:#ffffff;
+}
+.money-zf{                   /* 选择支付方式字体 */
+  font-size: 0.5rem;
+  padding-left: 5px;
+}
+
+
+
+         @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:26px;
+              }
+        }
+          @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+        @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:35px;
+              }
+
+        }
+        @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+              .control-group{
+                  width: 6.65rem; 
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:35px;
+              }
+               .section-bottom-btn{
+                max-width: 800px;
+               }
+               .home{
+                max-width: 800px;
+            }
+    }

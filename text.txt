@@ -1,0 +1,21 @@
+最新资讯
+
+create table wjs_y3(
+	y3_id int unsigned not null auto_increment primary key,
+	y3_name varchar(21) not null default'' COMMENT'Y3_name',
+	y3_phone varchar(11) not null default'' COMMENT'Y3_电话',
+	y3_area	varchar(61) not null default'' COMMENT'Y3_地址',
+	y3_goods varchar(51) not null default'' COMMENT'Y3_订购产品',
+	y3_price decimal(10,2) not null default'0.00' COMMENT'Y3_加个',
+	y3_media varchar(21) not null default'' COMMENT'Y3_下单来源',
+	y3_text varchar(81) not null default'' COMMENT'Y3_留言其他备注',
+	y3_time timestamp NOT NULL default CURRENT_TIMESTAMP
+);
+
+
+create table wjs_class(
+	class_id int unsigned not null auto_increment primary key,
+	class_name varchar(20) not null default'' COMMENT'分类名',
+	class_admin varchar(20) not nulldefault'' COMMENT'添加人姓名',
+	class_time int not null	
+)

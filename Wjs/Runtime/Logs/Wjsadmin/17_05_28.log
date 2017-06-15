@@ -1,0 +1,1437 @@
+[ 2017-05-28T11:00:54+08:00 ] 127.0.0.1 /Wjsadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T11:00:55+08:00 ] 127.0.0.1 /Wjsadmin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T11:00:55+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T11:01:02+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wjs_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T11:01:04+08:00 ] 127.0.0.1 /Wjsadmin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T11:01:05+08:00 ] 127.0.0.1 /Wjsadmin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T11:01:08+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T13:39:34+08:00 ] 127.0.0.1 /Wjsadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T13:39:36+08:00 ] 127.0.0.1 /Wjsadmin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T13:39:36+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T13:39:45+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T13:39:48+08:00 ] 127.0.0.1 /Wjsadmin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0040s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T13:39:59+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_order` ORDER BY order_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-28T13:40:05+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/texcel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: SELECT `order_name`,`order_phone`,`order_area`,`order_pro`,`order_money`,`order_media`,`order_bz` FROM `wjs_order` WHERE ( order_excel=0 ) ORDER BY order_id desc LIMIT 100   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_id) AS tp_max FROM `wjs_order` WHERE ( order_excel=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wjs_order` SET `order_excel`='1' WHERE ( order_id <='3' ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T13:40:45+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_order` ORDER BY order_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T13:40:47+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/texcel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0070s ]
+SQL: SELECT `order_name`,`order_phone`,`order_area`,`order_pro`,`order_money`,`order_media`,`order_bz` FROM `wjs_order` WHERE ( order_excel=0 ) ORDER BY order_id desc LIMIT 100   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_id) AS tp_max FROM `wjs_order` WHERE ( order_excel=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:03:13+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:04:24+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('吉祥物A','A222','http://wjs.com/','222','222','222','1','生肖吉祥物','d1wqd吉祥物A','1','技术部测试','&lt;p&gt;
+	吉祥物A吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	吉祥物A吉祥物A
+&lt;/p&gt;','1495951463','/Uploads/2017-05-28/592a6867b1247.jpg','/Thumb/Thumb_800/592a6867b1247.jpg','/Thumb/Thumb_340/592a6867b1247.jpg','/Thumb/Thumb_60/592a6867b1247.jpg') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:04:27+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T14:05:23+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:05:55+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('吉祥物BB','A2222','http://wjs.com/','222','222','222','1','生肖吉祥物','d1wqd吉祥物A','1','技术部测试','&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;
+&lt;p&gt;
+	d1wqd吉祥物A
+&lt;/p&gt;','1495951555','/Uploads/2017-05-28/592a68c366fac.jpg','/Thumb/Thumb_800/592a68c366fac.jpg','/Thumb/Thumb_340/592a68c366fac.jpg','/Thumb/Thumb_60/592a68c366fac.jpg') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:05:58+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:06:05+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 5,5   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T14:07:42+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T14:08:04+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('吉祥物BBa','A2221','http://wjs.com/','222','222','222','1','本命佛','d1wqd吉祥物A','1','技术部测试','d1wqd吉祥物A','1495951684','/Uploads/2017-05-28/592a69449fd88.jpg','/Thumb/Thumb_800/592a69449fd88.jpg','/Thumb/Thumb_340/592a69449fd88.jpg','/Thumb/Thumb_60/592a69449fd88.jpg') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:08:08+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:08:10+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:08:28+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('吉祥物Aaa','A222222','http://wjs.com/','222','222','222','1','本命佛','d1wqd吉祥物A','1','技术部测试','fwqf','1495951707','/Uploads/2017-05-28/592a695bba780.jpg','/Thumb/Thumb_800/592a695bba780.jpg','/Thumb/Thumb_340/592a695bba780.jpg','/Thumb/Thumb_60/592a695bba780.jpg') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T14:08:31+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:08:34+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T14:08:53+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('吉祥物As','A2222211','http://wjs.com/','222','222','222','1','本命佛','d1wqd吉祥物A','1','技术部测试','qdwd','1495951732','/Uploads/2017-05-28/592a6974a40b1.jpg','/Thumb/Thumb_800/592a6974a40b1.jpg','/Thumb/Thumb_340/592a6974a40b1.jpg','/Thumb/Thumb_60/592a6974a40b1.jpg') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T14:08:56+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-28T16:10:04+08:00 ] 127.0.0.1 /index.php/Wjsadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:06+08:00 ] 127.0.0.1 /Wjsadmin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:06+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:12+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:15+08:00 ] 127.0.0.1 /Wjsadmin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:18+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0070s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:22+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\de4e88ae9f4682c2f18359c5bb9e58ec.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:10:52+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: value H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1217 行.
+NOTIC: [8] Undefined index: auto H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\phpStudy\WWW\Wjs\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `wjs_goods` (`goods_name`,`goods_num`,`goods_material`,`goods_prices`,`goods_price`,`goods_stock`,`goods_state`,`goods_class`,`goods_effect`,`goods_hot`,`goods_admin`,`goods_remark`,`goods_time`,`goods_img`,`goods_img800`,`goods_img340`,`goods_img60`) VALUES ('qwe','A99','qwe','321','123','321','1','本命佛','qwe','1','技术部测试','&lt;p&gt;
+	qwe
+&lt;/p&gt;
+&lt;p&gt;
+	qwe
+&lt;/p&gt;','1495959051','/Uploads/2017-05-28/592a860bcbc2a.jpg','/Thumb/Thumb_800/592a860bcbc2a.jpg','/Thumb/Thumb_340/592a860bcbc2a.jpg','/Thumb/Thumb_60/592a860bcbc2a.jpg') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T16:10:54+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:10:55+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/Goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\92e38547ecc992af25fc566c4b6a8bc3.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-28T16:10:58+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_order` ORDER BY order_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:11:03+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_order` ORDER BY order_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:11:07+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:11:13+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:11:16+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T16:11:19+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 4,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:11:26+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T16:11:45+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0080s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:11:50+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:11:55+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:12:02+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_class` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\7d6137aad4b5b55d673719a065e2ab42.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T16:12:07+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Class/any_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_any` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_any` ORDER BY any_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_any` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\abbd354145854264de2431262054b768.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:12:16+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Order/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_order` ORDER BY order_id desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\f0f674331caa67bc67215690cdb69801.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T16:12:20+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:12:26+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_order` [ RunTime:0.0070s ]
+SQL: select count(order_excel) from wjs_order  where order_excel=0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(order_id) AS tp_Count FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(order_money) AS tp_sum FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MAX(order_money) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(order_media) AS tp_max FROM `wjs_order` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:12:28+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-28T16:12:33+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_del/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wjs_goods` WHERE ( goods_id= '23' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `wjs_goods` WHERE ( goods_id= '23' ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T16:12:36+08:00 ] 127.0.0.1 /index.php/Wjsadmin/Goods/goods_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wjs_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wjs_goods` ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjs_goods` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 74 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 89 行.
+NOTIC: [8] Undefined variable: a H:\phpStudy\WWW\Wjs\Wjs\Runtime\Cache\Wjsadmin\ecba1920bf09c8d3d3fcc81c155209da.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

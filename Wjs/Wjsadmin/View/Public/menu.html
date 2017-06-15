@@ -1,0 +1,107 @@
+ <div class="left-sidebar">
+            <!-- 用户信息 -->
+            <div class="tpl-sidebar-user-panel">
+                <div class="tpl-user-panel-slide-toggleable">
+                    <div class="tpl-user-panel-profile-picture">
+                        <img src="__PUBLIC__/assets/img/user04.png" alt="">
+                    </div>
+                    <span class="user-panel-logged-in-text">
+              <i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>
+              禁言小张
+          </span>
+                    <a href="{:U('Admin/index')}" class="tpl-user-panel-action-link"> <span class="am-icon-pencil"></span> 个人中心</a>
+                </div>
+            </div>
+
+            <!-- 菜单 -->
+            <ul class="sidebar-nav">
+                 <li class="sidebar-nav-link">
+                    <a href="{:U('Index/index')}">
+                        <i class="am-icon-home sidebar-nav-link-logo"></i> 首页
+                    </a>
+                </li>
+                <li class="sidebar-nav-link">
+                    <a href="javascript:;" class="sidebar-nav-sub-title">
+                        <i class="am-icon-table sidebar-nav-link-logo"></i> 商品
+                        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
+                    </a>
+                    <ul class="sidebar-nav sidebar-nav-sub">
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Goods/goods_add')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 添加商品
+                            </a>
+                        </li>
+
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Goods/goods_list')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 商品列表
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                 <li class="sidebar-nav-link">
+                    <a href="javascript:;" class="sidebar-nav-sub-title">
+                        <i class="am-icon-table sidebar-nav-link-logo"></i> 订单
+                        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
+                    </a>
+                    <ul class="sidebar-nav sidebar-nav-sub">
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Order/order_add')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 添加订单
+                            </a>
+                        </li>
+
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Order/order_list')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 订单列表
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                     <li class="sidebar-nav-link">
+                    <a href="javascript:;" class="sidebar-nav-sub-title">
+                        <i class="am-icon-table sidebar-nav-link-logo"></i> 分类
+                        <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico"></span>
+                    </a>
+                    <ul class="sidebar-nav sidebar-nav-sub">
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Class/class_add')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 添加大分类
+                            </a>
+                        </li>
+                         <li class="sidebar-nav-link">
+                            <a href="{:U('Class/index')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 大分类列表
+                            </a>
+                        </li>
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Class/any_add')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 添加产品规格或生肖
+                            </a>
+                        </li>
+
+                        <li class="sidebar-nav-link">
+                            <a href="{:U('Class/any_list')}">
+                                <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 产品规格或生肖列表
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="sidebar-nav-link">
+                    <a href="#">
+                        <i class="am-icon-clone sidebar-nav-link-logo"></i> 用户列表
+                        <span class="am-badge am-badge-secondary sidebar-nav-link-logo-ico am-round am-fr am-margin-right-sm">6</span>
+                    </a>
+                </li>
+                <li class="sidebar-nav-link">
+                    <a href="#">
+                        <i class="am-icon-clone sidebar-nav-link-logo"></i> 评论列表
+                        <span class="am-badge am-badge-secondary sidebar-nav-link-logo-ico am-round am-fr am-margin-right-sm">6</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>

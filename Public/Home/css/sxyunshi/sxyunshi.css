@@ -1,0 +1,241 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{                                    /*  背景色 */
+	background: #000000;              
+}
+.color-red{
+	color: #fd0000;
+	font-weight: bolder;
+}
+.section-1-box{
+	height:166px;
+	background-image: url(../../images/sxyunshi/15615651.jpg);  /* 12生肖图 */
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-2{
+	height: 745px;
+	background-image:url(../../images/sxyunshi/11561561.jpg);   /* 顶部主页图 */
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-2-box{
+	height: 469px;
+	background-image:url(../../images/sxyunshi/415165165.jpg);  /* 顶部主页图文字背景 */
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-2-content{
+	height: 469px;
+	background-image:url(../../images/sxyunshi/15616516.jpg); /* 顶部主页图文字背景框 */
+	background-repeat:no-repeat;
+    background-position:center;		
+}
+.section-2-content{                                             /*section-2-content 顶部主页图文字 */
+	max-width: 920px;
+	margin: 0 auto;
+	padding-top: 110px;
+	line-height: 30px;
+}
+.section-2-content p{
+    padding: 5px 10px;
+   	color: #755835;
+}
+.section-3{                                                      /* 星云大师页图标题 */
+	height: 286px;
+	background-image:url(../../images/sxyunshi/156156165.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.content{                                                         /* 星云大师页图背景图 */                
+    background-image:url(../../images/sxyunshi/156151651.jpg);   
+}
+.content-box{                                                         /*内容宽度 */     
+    max-width: 1000px;
+    margin: 0 auto;                                
+}
+.content-box-1-right{                                      /*content-box-1星云大师介绍*/
+	float: right;
+	max-width: 655px;
+	height: 380px;
+}
+.content-box-1-right p{
+	padding:5px 0; 
+    color: #755835;	
+}
+.content-box-2 h1,.content-box-3 h1,.content-box-4 h1,.content-box-6 h1{               /* 内容运程标题*/ 
+	height: 70px;
+	text-align: center;
+    font: bold 32px/70px "Microsoft YaHei";
+    color: #fae6cb;
+    margin: 15px 0;
+    background-image:url(../../images/sxyunshi/161651656.jpg);	
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.content-box-2 .content-box-2-top img{                    /*content-box-2整体运程*/
+	float: left;
+	padding: 0 20px 0 0;
+}
+.content-box-2 .content-box-2-top p{
+	padding: 5px 0;
+	line-height: 25px;
+   	color: #755835;
+}
+.content-box-2 table{                                     /*content-box-2整体表格*/
+    border:solid 1px #d5c7a3;
+}
+.content-box-2 table tr td{
+	width: 50%;
+	padding: 10px 0; 
+    border:solid 1px #d5c7a3;
+    vertical-align: text-top;
+}
+.content-box-2 table tr td p{
+	font-size: 14px;
+	padding: 5px 20px;
+    color: #755835;
+}
+.content-box-3-div1{                                        /*content-box-3 四大运势 */
+	max-width: 495px;
+	height: 400px;
+	display:inline-table;
+	margin: 10px 0;
+    background-image:url(../../images/sxyunshi/156165145.jpg);		
+    background-repeat:no-repeat;
+}
+.content-box-3-div1 h2{
+	text-align: center;
+    font: bold 32px/70px "Microsoft YaHei";
+    color: #9C0D0D;
+}
+.content-box-3-div1 h5{
+	padding: 20px 0 4px;
+    font-size: 16px;
+    color: #FF7E00;
+}
+.content-box-3-div1-box p{
+	padding: 5px 20px;
+    color: #856a51;
+}
+.content-box-4-div1{                           /*content-box-4 2017年生年运势 */
+	max-width: 490px;
+	margin: 10px 0;
+	display:inline-table;
+	border: 1px solid #95803b;
+}
+.content-box-4-div1 h2{
+	text-align: center;
+	font: bold 32px/70px "Microsoft YaHei";
+    color: #9C0D0D;	
+}
+.content-box-4-div1 h4{
+    color: #FFFFFF;
+    font: bold 16px/35px "Microsoft YaHei";
+    text-align: center;
+    background: #9c0d0d;
+}
+.content-box-4-div1 p{
+	font-size: 14.5px;
+	padding: 15px;
+	line-height: 28px;
+    color: #755835;	
+    font-family: "SimSun";
+}
+.content-box-5-div1{                                                /*content-box-5 商品吉祥物背景框 */
+	height: 334px;
+	margin-top: 20px;
+    background-image:url(../../images/sxyunshi/1561651561.jpg);	
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.content-box-5-top{                                               /*content-box-5 商品吉祥物 */
+	height: 574px;
+    background-image:url(../../images/sxyunshi/156165156.jpg);
+    background-repeat:no-repeat;    
+    background-position:center;	
+}
+.content-box-5-top div{                                        
+	height: 81px;
+	background-image:url(../../images/sxyunshi/156156156.jpg);
+    background-repeat:no-repeat;    
+    background-position:center;	
+}
+.content-box-5-left img{                                           /*content-box-5 商品吉祥物图 */
+	padding:25px;
+	float: left;
+}
+.content-box-5-right{
+	max-width: 670px;
+	float: right;
+	margin-top: 20px;
+}
+.content-box-right-top{                                            /*content-box-5 商品吉祥物标题背景图 */
+	height: 50px;
+	background-image:url(../../images/sxyunshi/156151565.jpg);
+    background-repeat:no-repeat;    
+    background-position:center;		
+}
+.content-box-right-top h3{
+	color: #ff0000;
+    font: bold 22px/50px "Microsoft YaHei";
+    text-align: center;
+}
+.content-box-5-right p{
+	margin-top:20px;
+    color: #755835;	
+    font-family: "SimSun";
+    line-height: 25px;
+}
+.content-box-right-btn{                                          /*商品吉祥物产品按钮*/
+   display: inline-block;
+   width: 145px;
+   height: 35px;
+   font-size: 18px;
+   line-height: 35px;
+   float: right;
+   text-align: center;
+   color: #ffffff;
+   background: linear-gradient(#d41c1c , #821211);
+   background: -webkit-linear-gradient(#d41c1c , #821211); 
+   background: -o-linear-gradient(#d41c1c , #821211); 
+   background: -moz-linear-gradient#d41c1c , #821211);
+}
+.content-box-right-btn:hover{
+   background: linear-gradient(#d41c1c , #B22222);
+   background: -webkit-linear-gradient(#d41c1c , #B22222); 
+   background: -o-linear-gradient(#d41c1c , #B22222); 
+   background: -moz-linear-gradient(#d41c1c , #B22222); 
+}
+.content-box-right-bottom{
+	float: right;
+	padding: 20px 30px 0 0;
+}
+.content-box-right-bottom h4{
+	display: inline;
+	color: #934c05;	
+	padding-right: 20px;
+}
+.content-box-right-bottom h4 span{
+	color: #ff0000;
+	font-size: 25px;
+}
+.content-box-6 p{
+    font:16px/28px "Microsoft YaHei";
+	color: #856a51;	
+}
+.section-4{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;		
+}
+.section-4-box{
+	height: 613px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+

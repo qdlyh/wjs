@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>测试西单</title>
+	<script src="__PUBLIC__/Js/jquery-1.4.1.min.js"></script>
+</head>
+<body>
+	<h1>下单</h1>
+	<form action="{:U('index')}" method="post">
+			来源:   <input type="text" name="Y3_Media" id="Y3_Media"><br>
+			姓名:   <input type="text" name="Y3_RealName" id="Y3_RealName"><br>
+			地区:   <input type="text" name="Y3_Address" id="Y3_Address"><br>
+			手机:   <input type="text" name="Y3_Phone" id="Y3_Phone"><br>
+			留言:   <input type="text" name="Y3_Message" id="Y3_Message"><br>
+			电话:   <input type="text" name="Y3_Mobile" id="Y3_Mobile"><br>
+			产品:   <input type="text" name="Y3_Product" id="Y3_Product"><br>
+			<input type="button" value="提交" >
+	
+</body>
+
+<script type="text/javascript">
+
+		function check(){
+
+			//var ur = "{:U(Home/Shop/index)}";
+			//得到表单数据
+			var Y3_Media = $("#Y3_Media").val();
+			var Y3_RealName = $("#Y3_RealName").val();
+			var Y3_Address = $("#Y3_Address").val();
+			var Y3_Phone = $("#Y3_Phone").val();
+			var Y3_Message = $("#Y3_Message").val();
+			var Y3_Mobile = $("#Y3_Mobile").val();
+			var Y3_Product = $("#Y3_Product").val();
+			
+
+			//判断是否为空
+			if (Y3_RealName == "") {
+			        alert("请输入收货人姓名");
+			        return false;
+			    }
+
+			$.post("{:U('Home/Shop/index')}",{Y3_RealName:Y3_RealName, Y3_Address:Y3_Address,Y3_Phone:Y3_Phone,Y3_Media:Y3_Media,Y3_Message:Y3_Message,Y3_Mobile:Y3_Mobile,Y3_Product:Y3_Product},function(date){
+				//alert(date.info)
+				if(date.info == 200 ){
+					alert('恭喜提交本地数据库成功')
+				}
+				else{
+					 alert("提交失败");
+				}
+
+
+			},'json')
+			
+		}
+
+</script>
+
+</html>

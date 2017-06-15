@@ -1,0 +1,103 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+  background-color: #f0efed;
+}
+.section-li-cp-name{                        /*分类产品名字*/
+  font-size: 0.6rem;
+  color: #232326;
+  padding-left: 10px;
+}
+.section-li-cp-rmb{                         /*分类产品￥符号大小*/
+  font-size: 0.6rem;
+  color: #ed5f86;
+  padding-left: 10px;
+}
+.section-li-cp-jg{                           /*分类产品价格*/
+  font-size: 0.7rem;
+  color: #ed5f86;
+}
+.home{
+   margin: 0 auto;
+}
+
+.head-top{                    
+  height: 2rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background: #ffffff;
+  line-height: 2rem;
+}
+.head-top h2{
+  font-size: 0.8rem;
+  color: #333333;
+  font-family:"SimHei","SimSun","SimHei","Microsoft YaHei";
+}
+.section1{
+  margin:0.1.5rem 0;
+  width:100%;
+}
+.section1 img{                         /*顶部轮播图片*/
+  width: 100%;
+}
+
+.section3{
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+.section3 h2{
+  font-size: 0.7rem;
+  padding:15px 0.5rem;
+  color: #333333;
+}
+.section3-box li{
+  padding:0 2px 0 0;
+}
+.section3-box-content{
+  display: flex;  
+  flex-wrap:wrap;
+}
+.section3-box-content li{
+  width: 50%;
+  border: 1px solid #cccccc;
+}
+.section3-li1-img img{
+  width: 100%;
+} 
+
+      @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:26px;
+              }
+        }
+      @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+      @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:35px;
+              }
+
+        }
+      @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:34px;
+              }
+               .home{
+                max-width: 800px;
+            }
+    }
+    
+

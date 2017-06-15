@@ -1,0 +1,79 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+}
+.home{
+   margin: 0 auto;
+}
+.section-2{                      /* 订单字体向上右 */
+	padding-top: 50%;
+  padding-left: 9%;
+}
+.section-2-left{
+	float: left;
+}
+.section-2-box h4{
+	padding-bottom: 8px;
+  font-size: 0.65rem;
+  color: #333333;
+}
+.section-2-box p{
+	line-height: 0.65rem;
+  font-size: 0.5rem;
+  color: #999999;
+}
+/* 返回按钮  */
+.money-btn{
+  margin: 0 auto;
+  text-align: center;
+  padding-top:120px;
+}
+.money-btn a{
+  display: inline-block;
+  width: 60%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  background:#e7c981;
+}
+
+
+         @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:26px;
+              }
+        }
+          @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+        @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:40px;
+              }
+              .section-2{             /* 订单字体向右 */
+                padding-left: 30%;
+              }
+
+        }
+        @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+              .section-2{             /* 订单字体向右 */
+                padding-left: 30%;
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:35px;
+              }
+               .home{
+                max-width: 800px;
+            }
+    }

@@ -1,0 +1,116 @@
+.home{
+   min-width:1200px;
+   background: #F5F5F5;
+}
+.content-1{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content-2{                 /*购物车背景*/
+  background: #ffffff;
+}
+.section-1{
+  margin: 10px auto;
+}
+.section-1-top{                    /* 购物信息栏背景图 */ 
+  width: 719px; 
+  height: 50px;
+  background-image:url(../../images/156156165.jpg); 
+  margin:left;
+}
+.section-1-top ul li{                /* 购物信息栏 */ 
+  float: left;
+  line-height: 50px;
+  font-size: 17px;
+  padding-right: 55px;
+  padding-left: 30px;
+  color: #ffffff;
+}
+.section-3-box h4{
+  margin: 30px 0 10px 15px;
+  letter-spacing: 1px;
+}
+
+.top-h1{
+  color: #ffffff;
+  background:#851919;
+  font-size:1.2rem;
+  height: 30px;
+  line-height: 1.8rem;
+}
+.shux label{
+  width: 140px;
+  color: #fd0000;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+.color-red{
+  color: #fd0000;
+}
+.shenp label{
+  color: #fd0000;
+  font-weight: bold;
+  cursor: pointer;       
+}
+.shenp img{
+  width: 40px;
+}
+.colour-input1{ 
+  color:#000000; 
+} 
+.colour-input2{ 
+  color:#00BBFF; 
+} 
+.colour-input3{ 
+  color:#FF3333 ; 
+} 
+.colour-input4{ 
+  color:#33FF33;  
+}
+.xinxi-button:hover{
+  background:#00BBFF;
+}
+/*#sumMoney{
+  font-size:18px;
+  font-weight:bold;
+  color:#FD0000;
+}*/
+.xinxi input{
+  margin:10px 1.5rem;
+}
+.xinxi select {
+  width: 150px;
+  height: 30px;
+  margin-left: 20px;
+}
+.xinxi-box{
+  width: 10%;
+  height:30px;
+}
+.xinxi-sj{     /*手机 */
+  width: 20%;
+}
+.xinxi-dz{      /* 详细地址 */
+  width: 50%;
+}
+.zhifu-1 input{
+  width:60px;
+  text-align: center;
+}
+.xinxi-word{
+  margin:10px 4.5%;
+  width: 50%;
+  height: 60px;
+}
+/* 表单信息 */
+.section-2{
+  margin-left: 3%;
+}
+
+.liuyan{
+  height: 36px;
+  margin-top: 27px;
+  float: left;"
+}
+

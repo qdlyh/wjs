@@ -1,0 +1,125 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+}
+.home{
+   margin: 0 auto;
+}
+.head-top{                    
+  height: 2rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background: #e7c981;
+  line-height: 2rem;
+}
+.head-top h2{
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+.section-1-box{
+	height: 400px;
+	background: #ffffff;
+}
+.section-1-box h1{
+	background: #e7c981;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.6rem;
+}
+.section-1-box img{
+	vertical-align:middle;
+}
+.section-1-box-tab{
+   display: flex;
+   justify-content: space-between;
+}
+.section-1-box-tab span{
+	display: inline-block;
+	width: 50%;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	font-size: 0.5rem;
+	margin: 0 auto;
+	cursor: pointer;
+  border-bottom: 0.12rem solid #cccccc;
+}
+.active{
+	color: #e7c981;
+	border-bottom: 0.12rem solid #e7c981 !important;
+}
+.section-1-box-left h4,.section-1-box-right h4{
+	color: #c34d4d;
+	padding:10px 0 0 1.3rem;
+	font-size: 0.5rem;
+}
+.section-1-box-left form,.section-1-box-right form{
+	margin: 10px 0;
+	text-align: center;
+}
+.section-1-box-left form span,.section-1-box-right form span{
+	font-size: 0.4rem;
+}
+.section-1-box-left input,.section-1-box-right input{
+	width: 60%;
+	height: 40px;
+	margin: 10px 0;
+	background:#fff1d8;
+  border: 0;
+}
+.login-btn{
+	margin-top: 30px;
+}
+.login-btn a{
+  display:block;
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  background:#e7c981;
+  margin: 0 auto;
+}
+
+
+         @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:30px;
+              }
+        }
+          @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+        @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:35px;
+              }
+              .login-btn a{
+              	width: 50%;
+              }
+
+        }
+        @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+              .login-btn a{
+              	width: 50%;
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:35px;
+              }
+               .home{
+                max-width: 800px;
+               }
+    }

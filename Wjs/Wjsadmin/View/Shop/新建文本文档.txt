@@ -1,0 +1,7 @@
+var Y3_RealName = $("#Y3_Media").val();
+			var Y3_RealName = $("#Y3_RealName").val();
+			var Y3_Address = $("#Y3_Address").val();
+			var Y3_Phone = $("#Y3_Phone").val();
+			var Y3_Message = $("#Y3_Message").val();
+			var Y3_Mobile = $("#Y3_Mobile").val();
+			var Y3_Product = $("#Y3_Product").val();

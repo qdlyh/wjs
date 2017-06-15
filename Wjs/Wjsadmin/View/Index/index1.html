@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>后台首页</title>
+</head>
+<body>
+		<p><span>欢迎您:{$Think.session.login_name}</span>&nbsp&nbsp&nbsp&nbsp&nbsp<span><a href="{:U('Goods/goods_add')}">添加商品</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp<span><span><a href="{:U('Goods/goods_list')}">查看商品</a></span>
+		&nbsp&nbsp&nbsp&nbsp&nbsp<span><a href="{:U('out')}">退出</a></span></p>
+		<hr>
+		<!--<p>{$Think.server.script_name}</p>*/}-->
+		<p>当前IP地址: {$_SERVER.REMOTE_ADDR}</p>
+		<p>当前主机名:{$_SERVER.SERVER_NAME}</p>
+		<p>当前URL:	{$_SERVER.REQUEST_URI}</p>
+		<p>域名：  {$_SERVER.HTTP_HOST}</p>
+		<p>浏览器语言:  {$_SERVER.HTTP_ACCEPT_LANGUAGE}</p>
+		<p>管理员信息 : {$_SERVER.SERVER_ADMIN}</p>
+		<p>端口: {$_SERVER.SERVER_PORT}</p>
+		<p>前一页URL: {$_SERVER.HTTP_REFERER}</p>
+	
+		<p>框架版本: {$Think.version}</p>
+
+		<hr>
+		<p>当前时间: {$Think.now}</p>
+		<p>登录用户ID : {$Think.session.login_id}</p>
+		<p>登录用户账号 :	{$Think.session.login_user}</p>
+		<p>欢迎您: {$Think.session.login_name}</p>
+
+		<p>{$Think.const.MODULE_NAME}</p>
+
+</body>
+</html>

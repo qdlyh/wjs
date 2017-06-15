@@ -1,0 +1,52 @@
+
+ .section-bottom-btn{     /* 底部导航向右固定居中 */
+  display: flex;
+  justify-content: flex-end;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
+  height: 55px;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  display: -webkit-flex;
+  display: flex;
+  color: #5f6874;
+  border: 2px solid #f3f3f3;
+ 
+}
+.section-bottom-btn-kf img,.section-bottom-btn-gw img{    /* 客服图标居中  */
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 2.5px auto;
+    padding-bottom: 2px;
+}
+.section-bottom-btn-kf,.section-bottom-btn-gw{          /* 客服框大小  */
+  width: 60px;
+  height: 100%;
+  text-align: center;
+  font-size: 9px;
+  color: rgba(57,64,80,.6);
+  border-left: 1px solid #ebeaee;
+}
+.section-bottom-btn3 a,.section-bottom-btn4 a{
+  display: block;
+  width: 4rem;
+  height: 55px;
+  line-height: 55px;
+  color: #ffffff;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 16px;
+  border-left: 2px solid #ffffff;
+}
+.section-bottom-btn3 a{
+   background: #e7c981;
+}  
+.section-bottom-btn4 a{
+  background: #ebd08e;
+}

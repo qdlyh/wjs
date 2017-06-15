@@ -1,0 +1,155 @@
+               <!-- 包含头部 -->
+        <include file="Public/header" />
+        <!-- 侧边导航栏 -->
+        <include file="Public/menu" />
+
+        <!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+            <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 添加商品<small></small></div>
+                        <p class="page-header-description">请注意格式</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row-content am-cf">
+
+
+               
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">添加商品</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body am-fr">
+
+                                <form class="am-form tpl-form-border-form tpl-form-border-br" action="{:U('goods_save')}" method="post" enctype="multipart/form-data">
+
+                                    <input type="hidden" name="id" id="id" value="{$goods_save.goods_id}">
+                                    <div class="am-form-group">
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">商品名 <span class="tpl-form-line-small-title">goods_name</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="name" id="name" value="{$goods_save.goods_name}">
+                                            <small>必填,最长20字。</small>
+                                        </div>
+                                    </div>
+                                 
+
+                                    <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">材质<span class="tpl-form-line-small-title">goods_material</span></label>
+                                        <div class="am-u-sm-9">
+                                           <input type="text" name="caizhi" id="caizhi" value="{$goods_save.goods_material}">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">市场价格 <span class="tpl-form-line-small-title">goods_prices</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="shichangjia" id="shichangjia" value="{$goods_save.goods_prices}">
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">结缘价格 <span class="tpl-form-line-small-title">goods_price</span></label>
+                                        <div class="am-u-sm-9">
+                                           <input type="text" name="jia" id="jia" value="{$goods_save.goods_price}">
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">库存 <span class="tpl-form-line-small-title">goods_price</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="kucun" id="kucun" value="{$goods_save.goods_stock}">
+                                        </div>
+                                    </div>
+                                    
+                                     <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">分类<span class="tpl-form-line-small-title">goods_class</span></label>
+                                        <div class="am-u-sm-9">
+                                          <input type="text" name="class" id="class" value="{$goods_save.goods_class}">
+                                        </div>
+                                    </div>
+
+                                     <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">功效<span class="tpl-form-line-small-title">goods_effect</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" name="gongxiao" id="gongxiao" value="{$goods_save.goods_effect}">
+                                        </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">热卖<span class="tpl-form-line-small-title">goods_hot</span></label>
+                                        <div class="am-u-sm-9">
+                                           <input type="text" name="remai" id="remai" value="{$goods_save.goods_hot}">
+                                        </div>
+                                    </div>
+
+                                       <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">是否上架<span class="tpl-form-line-small-title">goods_state</span></label>
+                                        <div class="am-u-sm-9">
+                                           <input type="text" name="state" id="state" value="{$goods_save.goods_state}">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label for="user-intro" class="am-u-sm-3 am-form-label">商品详情</label>
+                                        <div class="am-u-sm-9">
+                                           <input type="text" name="beizhu" id="editor_id" value="{$goods_save.goods_remark}" style="width:100%;height:150px;"></input>
+                                        </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label for="user-weibo" class="am-u-sm-3 am-form-label">商品图 <span class="tpl-form-line-small-title">goods_img</span></label>
+                                        <div class="am-u-sm-9">
+                                                <input type="file" name="tu" id="tu"/>
+
+                                        </div>
+                                        <div class="tpl-form-file-img">
+                                                    <img src="{$goods_save.goods_img220}" alt="原图">
+                                                </div>
+                                    </div>
+
+                                      <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">发布者<span class="tpl-form-line-small-title">goods_admin</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text"  name="fabuzhe" value="{$Think.session.login_name}">
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <div class="am-u-sm-9 am-u-sm-push-3">
+                                            <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/assets/js/amazeui.datatables.min.js"></script>
+    <script src="__PUBLIC__/assets/js/dataTables.responsive.min.js"></script>
+    <script src="__PUBLIC__/assets/js/app.js"></script>
+
+</body>
+
+</html>

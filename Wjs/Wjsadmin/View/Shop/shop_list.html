@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h1>订单展示</h1>
+	<table border="1px" >
+		<tr>
+			<td width="100px">姓名</td>
+			<td width="100px">地址</td>
+			<td width="100px">来源</td>
+			<td width="100px">手机</td>
+			<td width="100px">电话</td>
+			<td width="100px">留言</td>
+			<td width="100px">商品</td>
+			<td width="100px">操作</td>
+
+		</tr>
+			
+		<foreach name="a" item="a" >
+		   <tr>
+			<td width="100px">{$a.name}</td>
+			<td width="100px">{$a.laiyuan}</td>
+			<td width="100px">{$a.phone}</td>
+			<td width="100px">{$a.liuyan}</td>
+			<td width="100px">{$a.tel}</td>
+			<td width="100px">{$a.message}</td>
+			<td width="100px">{$a.pro}</td>
+			<td width="100px">增删改查</td>
+
+		</tr>
+		</foreach>
+	</table>
+
+	<h3><a href="{:U('index')}">返回添加订单</a></h3>
+</body>
+</html>
